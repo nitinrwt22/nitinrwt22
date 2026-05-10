@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Nitin Rawat — Software Developer" width="100%"/>
+<img src="assets/banner.svg" alt="Nitin Rawat — CS Student & Aspiring Developer" width="100%"/>
 
 </div>
 
@@ -22,13 +22,13 @@
 ## `> whoami`
 
 ```
-B.Tech CSE @ Graphic Era Hill University, Dehradun  ·  2024 – 2028  ·  CGPA: 8.78
+B.Tech CSE @ Graphic Era Hill University, Dehradun  ·  2nd Year, 4th Sem  ·  2024–2028  ·  CGPA: 8.78
 Top 12 @ HACK4DELHI (NSUT, Delhi)  ·  5+ Hackathons  ·  150+ GitHub Contributions this year
 ```
 
-I'm a sophomore CS student who builds things that **actually work**. I like systems that are fast, codebases that are clean, and problems that make me think. Currently obsessed with **DSA, full-stack development**, and building tools that scratch my own itch.
+I'm a **2nd-year CS student** who builds real projects to learn, not just to add lines to a resume. I'm drawn to systems that are efficient, codebases that are clean, and problems that actually make me think. Currently deepening my grasp of **DSA and full-stack development** — and actively looking for an **internship** where I can contribute and grow.
 
-> *"I don't just learn technologies — I build with them."*
+> *"I'm not there yet — but I ship real things and I'm hungry to learn fast."*
 
 <br/>
 
@@ -108,7 +108,7 @@ A **backend-driven study platform** that structures exam prep into time-bound, c
   "databases":  ["MySQL", "PostgreSQL", "Firebase"],
   "tools":      ["Git", "GitHub", "VS Code", "Postman", "Figma", "Vercel"],
   "core_cs":    ["DSA", "OOP", "DBMS", "System Design", "Graph Theory"],
-  "currently":  ["Learning full-stack patterns", "Deepening DSA", "Building in public"]
+  "currently":  ["Deepening DSA", "Exploring backend & full-stack patterns", "Looking for internships"]
 }
 ```
 
@@ -148,7 +148,7 @@ A **backend-driven study platform** that structures exam prep into time-bound, c
 
 ## `> ping me`
 
-I'm always open to interesting conversations, collaborations, or opportunities.
+I'm a 2nd-year CS student actively looking for internship opportunities. If you're hiring or just want to talk tech, I'd love to connect.
 
 <div align="center">
 
@@ -167,6 +167,6 @@ I'm always open to interesting conversations, collaborations, or opportunities.
 
 <div align="center">
 
-<sub>Maintained by <strong>Nitin Rawat</strong> · Last updated May 2026 · Built with ☕ and late nights</sub>
+<sub>Maintained by <strong>Nitin Rawat</strong> · B.Tech CSE, 2nd Year · Last updated May 2026 · Built with ☕ and curiosity</sub>
 
 </div>
