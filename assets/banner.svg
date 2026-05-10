@@ -1,0 +1,94 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D0D1A"/>
+      <stop offset="45%" stop-color="#0f1f3d"/>
+      <stop offset="100%" stop-color="#162032"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="100%" stop-color="#92FE9D"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="220" fill="url(#bg)"/>
+
+  <!-- Grid lines (subtle) -->
+  <g stroke="#1a2a4a" stroke-width="0.5" opacity="0.4">
+    <line x1="0" y1="44" x2="900" y2="44"/>
+    <line x1="0" y1="88" x2="900" y2="88"/>
+    <line x1="0" y1="132" x2="900" y2="132"/>
+    <line x1="0" y1="176" x2="900" y2="176"/>
+    <line x1="180" y1="0" x2="180" y2="220"/>
+    <line x1="360" y1="0" x2="360" y2="220"/>
+    <line x1="540" y1="0" x2="540" y2="220"/>
+    <line x1="720" y1="0" x2="720" y2="220"/>
+  </g>
+
+  <!-- Decorative dot cluster top-left -->
+  <g fill="#00C9FF" opacity="0.15">
+    <circle cx="30" cy="30" r="2"/>
+    <circle cx="50" cy="30" r="2"/>
+    <circle cx="70" cy="30" r="2"/>
+    <circle cx="30" cy="50" r="2"/>
+    <circle cx="50" cy="50" r="2"/>
+    <circle cx="70" cy="50" r="2"/>
+    <circle cx="30" cy="70" r="2"/>
+    <circle cx="50" cy="70" r="2"/>
+    <circle cx="70" cy="70" r="2"/>
+  </g>
+
+  <!-- Decorative dot cluster bottom-right -->
+  <g fill="#92FE9D" opacity="0.12">
+    <circle cx="830" cy="150" r="2"/>
+    <circle cx="850" cy="150" r="2"/>
+    <circle cx="870" cy="150" r="2"/>
+    <circle cx="830" cy="170" r="2"/>
+    <circle cx="850" cy="170" r="2"/>
+    <circle cx="870" cy="170" r="2"/>
+    <circle cx="830" cy="190" r="2"/>
+    <circle cx="850" cy="190" r="2"/>
+    <circle cx="870" cy="190" r="2"/>
+  </g>
+
+  <!-- Glowing accent line -->
+  <rect x="0" y="215" width="900" height="3" fill="url(#accent)" filter="url(#glow)" opacity="0.9"/>
+
+  <!-- Accent top bar -->
+  <rect x="0" y="0" width="900" height="3" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Main name -->
+  <text x="450" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="62" font-weight="900"
+        fill="url(#accent)" text-anchor="middle" filter="url(#glow)" letter-spacing="4">
+    NITIN RAWAT
+  </text>
+
+  <!-- Tagline -->
+  <text x="450" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400"
+        fill="#8899BB" text-anchor="middle" letter-spacing="3">
+    SOFTWARE DEVELOPER  ·  DSA ENTHUSIAST  ·  OPEN SOURCE BUILDER
+  </text>
+
+  <!-- Small decorative bracket left -->
+  <text x="105" y="107" font-family="monospace" font-size="50" font-weight="100"
+        fill="#00C9FF" opacity="0.25" text-anchor="middle">{</text>
+
+  <!-- Small decorative bracket right -->
+  <text x="795" y="107" font-family="monospace" font-size="50" font-weight="100"
+        fill="#92FE9D" opacity="0.25" text-anchor="middle">}</text>
+</svg>
